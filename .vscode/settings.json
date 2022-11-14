@@ -1,0 +1,76 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Panic Sans, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "classes": true,
+        "defaultParams": true
+      }
+    },
+    "rules": {
+      "no-const-assign": 1,
+      "no-extra-semi": 0,
+      "semi": 0,
+      "no-fallthrough": 0,
+      "no-empty": 0,
+      "no-mixed-spaces-and-tabs": 0,
+      "no-redeclare": 0,
+      "no-this-before-super": 1,
+      "no-undef": 1,
+      "no-unreachable": 1,
+      "no-use-before-define": 0,
+      "constructor-super": 1,
+      "curly": 0,
+      "eqeqeq": 0,
+      "func-names": 0,
+      "valid-typeof": 1
+    }
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  // Tell the ESLint plugin to run on save.
+  "eslint.validate": ["html", "javascript", "javascriptreact"],
+  "extensions.ignoreRecommendations": false,
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "javascript.format.enable": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.styleIntegration": true,
+  "prettier.trailingComma": "all",
+  "explorer.openEditors.visible": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true
+}

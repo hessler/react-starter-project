@@ -1,0 +1,54 @@
+{
+  "name": "advanced-auction",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "4.0.0-alpha.58",
+    "@material-ui/styles": "4.11.4",
+    "@material-ui/utils": "4.11.2",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "2.26.3",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "4.0.3",
+    "typeface-roboto": "1.1.13",
+    "web-vitals": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-react": "7.23.2",
+    "prettier": "2.3.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
